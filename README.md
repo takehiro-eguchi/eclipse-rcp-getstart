@@ -12,4 +12,15 @@
         * http://download.eclipse.org/e4/snapshots/org.eclipse.e4.tools/latest/
             * select all plugins
 
+## Projects
+* com.egu.rcp.tasks.ui
+* com.egu.rcp.tasks.product
+* com.egu.rcp.tasks.feature
 
+
+## Elements
+* products
+* feature
+* MANIFEST.MF
+* fragment
+* workbench

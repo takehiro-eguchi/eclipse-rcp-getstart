@@ -3,6 +3,7 @@
 
 <product name="sample" uid="sample" id="com.egu.rcp.tasks.ui.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" useFeatures="true" includeLaunchers="true">
 
+
    <configIni use="default">
    </configIni>
 
@@ -13,14 +14,19 @@
       </vmArgsMac>
    </launcherArgs>
 
-   <launcher>
+   <windowImages/>
+
+
+   <launcher name="eclipse-rcp-sample">
       <win useIco="false">
          <bmp/>
       </win>
    </launcher>
 
+
    <vm>
    </vm>
+
 
    <plugins>
    </plugins>
@@ -39,5 +45,12 @@
       <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
    </configurations>
+
+   <preferencesInfo>
+      <targetfile overwrite="false"/>
+   </preferencesInfo>
+
+   <cssInfo>
+   </cssInfo>
 
 </product>
